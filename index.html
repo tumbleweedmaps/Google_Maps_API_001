@@ -1,106 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Maps API</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Google Maps API</title>
+  <style>
+    #map-wrapper {
+      width: 100%;
+      background: black;
+      padding: 20px;
+    }
+
+    #map {
+      height: 700px;
+      width: 90%;
+      margin: auto;
+    }
+  </style>
 </head>
 <body>
-    <div id="" style="width: 100%; background: black; padding: 20px;">
-    <div id="map" style="height: 700px; width: 90%; margin: auto;"></div>
-</div>
+  <div id="map-wrapper">
+    <div id="map"></div>
+  </div>
 
-
-<script>
+  <script>
     function initMap() {
-    const noLabelsStyle = [
-      {
-        featureType: "all",
-        elementType: "labels",
-        stylers: [{ visibility: "off" }],
-      },
-      {
-        featureType: "road",
-        elementType: "geometry",
-        stylers: [{ visibility: "on" }],
-      },
-    ];
+      const noLabelsStyle = [
+        {
+          featureType: "all",
+          elementType: "labels",
+          stylers: [{ visibility: "off" }],
+        },
+        {
+          featureType: "road",
+          elementType: "geometry",
+          stylers: [{ visibility: "on" }],
+        },
+      ];
 
-    const center = { lat: 43.4342, lng: -70.6246 };
+      const center = { lat: 43.4342, lng: -70.6246 };
 
-    const map = new google.maps.Map(document.getElementById("map"), {
-      center: center,
-      zoom: 12,
-      heading: 0,
-      tilt: 45,
-      mapTypeId: "terrain",
-      mapId: "60dbabc0c2aa1d3b6de10662", // make sure 3D is enabled on this
-      styles: noLabelsStyle
-    });
+      const map = new google.maps.Map(document.getElementById("map"), {
+        center: center,
+        zoom: 12,
+        heading: 0,
+        tilt: 45,
+        mapTypeId: "terrain",
+        mapId: "60dbabc0c2aa1d3b6de10662", // Make sure this is configured in your Google Cloud Console
+        styles: noLabelsStyle,
+      });
 
-    const marker = new google.maps.Marker({
-      position: center,
-      map: map,
-      title: "My Location",
-    });
+      const marker = new google.maps.Marker({
+        position: center,
+        map: map,
+        title: "My Location",
+      });
 
-    const infoWindow = new google.maps.InfoWindow({
-      content: "<b>You're here!</b>",
-    });
+      const infoWindow = new google.maps.InfoWindow({
+        content: "<b>You're here!</b>",
+      });
 
-    const kmlLayer = new google.maps.KmlLayer({
-      url: 'https://storage.googleapis.com/tumbleweed_kml/newIconsD.kml',
-      map: map,
-    });
-  }
-</script>
-<script async defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5ul6nx5THZfVhGtlCwuRQJy80MLn1beo&callback=initMap">
-</script>
+      const kmlLayer = new google.maps.KmlLayer({
+        url: 'https://storage.googleapis.com/tumbleweed_kml/newIconsD.kml',
+        map: map,
+      });
+    }
+  </script>
 
-
-<script>
-    function initMap() {
-    const noLabelsStyle = [
-      {
-        featureType: "all",
-        elementType: "labels",
-        stylers: [{ visibility: "off" }],
-      },
-      {
-        featureType: "road",
-        elementType: "geometry",
-        stylers: [{ visibility: "on" }],
-      },
-    ];
-
-    const center = { lat: 43.4342, lng: -70.6246 };
-
-    const map = new google.maps.Map(document.getElementById("map"), {
-      center: center,
-      zoom: 12,
-      heading: 0,
-      tilt: 45,
-      mapTypeId: "terrain",
-      mapId: "60dbabc0c2aa1d3b6de10662", // make sure 3D is enabled on this
-      styles: noLabelsStyle
-    });
-
-    const marker = new google.maps.Marker({
-      position: center,
-      map: map,
-      title: "My Location",
-    });
-
-    const infoWindow = new google.maps.InfoWindow({
-      content: "<b>You're here!</b>",
-    });
-
-    const kmlLayer = new google.maps.KmlLayer({
-      url: 'https://storage.googleapis.com/tumbleweed_kml/newIconsD.kml',
-      map: map,
-    });
-  }
-</script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5ul6nx5THZfVhGtlCwuRQJy80MLn1beo&callback=initMap">
+  </script>
 </body>
 </html>
