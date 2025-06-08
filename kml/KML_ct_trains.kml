@@ -30,6 +30,9 @@
 	<name>Cos Cob</name>
 	<ExtendedData><SchemaData schemaUrl="#book1">
 		<SimpleData name="id">ts002</SimpleData>
+		<SimpleData name="street">1 Cos Cob Ave, Cos Cob, CT 06807</SimpleData>
+		<SimpleData name="x">-73.6049774</SimpleData>
+		<SimpleData name="y">41.0298465</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>0,0</coordinates></Point>
   </Placemark>
