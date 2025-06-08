@@ -23,7 +23,9 @@
     <div id="map"></div>
   </div>
 
+  <!-- Add Modules -->
 <script src="modules/clickToAddMarker.js"></script>
+<script src="modules/addKMLLayer.js"></script>
 
   <script>
     function initMap() {
@@ -67,8 +69,12 @@
         map: map,
       });
 
+
+
     //   Add Function Calls
       enableClickToAddMarker(map);
+      addKmlLayer(map, "https://tumbleweedmaps.github.io/Google_Maps_API_001/kml/KML_aga4.kml")
+      
     }
   </script>
 

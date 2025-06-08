@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="10whites" id="10whites">
+	<SimpleField name="Rank" type="int"></SimpleField>
+	<SimpleField name="Elevation" type="int"></SimpleField>
+	<SimpleField name="y" type="float"></SimpleField>
+	<SimpleField name="x" type="float"></SimpleField>
+</Schema>
+	<Style id="peak-icon">
+  <IconStyle>
+    <scale>1.2</scale>
+    <Icon>
+      <href>https://maps.google.com/mapfiles/kml/shapes/mountains.png</href>
+    </Icon>
+  </IconStyle>
+</Style>
+<Folder><name>10whites</name>
+
+
+  <Placemark id="10whites.1">
+	<name>Washington</name>
+<styleUrl>#peak-icon</styleUrl>
+    <description>
+    <div style="height:300px; width:300px">
+    <div style="font-weight: bold; color: yellow; font-size: 3em">Name: Mount Washington</div>
+    </div>
+    
+    
+    </description>
+	<ExtendedData><SchemaData schemaUrl="#10whites">
+		<SimpleData name="Rank">1</SimpleData>
+		<SimpleData name="Elevation">6286</SimpleData>
+		<SimpleData name="y">44.27049</SimpleData>
+		<SimpleData name="x">-71.30327</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.30327,44.27049</coordinates></Point>
+  </Placemark>
+
+
+
+  <Placemark id="10whites.2">
+	<name>Adams</name>
+	<ExtendedData><SchemaData schemaUrl="#10whites">
+		<SimpleData name="Rank">2</SimpleData>
+		<SimpleData name="Elevation">5797</SimpleData>
+		<SimpleData name="y">44.32056</SimpleData>
+		<SimpleData name="x">-71.29156</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.29156,44.32056</coordinates></Point>
+  </Placemark>
+  <Placemark id="10whites.3">
+	<name>Jefferson</name>
+	<ExtendedData><SchemaData schemaUrl="#10whites">
+		<SimpleData name="Rank">3</SimpleData>
+		<SimpleData name="Elevation">5714</SimpleData>
+		<SimpleData name="y">44.30423</SimpleData>
+		<SimpleData name="x">-71.31683</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.31683,44.30423</coordinates></Point>
+  </Placemark>
+  <Placemark id="10whites.4">
+	<name>Mount Clay</name>
+	<ExtendedData><SchemaData schemaUrl="#10whites">
+		<SimpleData name="Rank">4</SimpleData>
+		<SimpleData name="Elevation">5531</SimpleData>
+		<SimpleData name="y">44.28608</SimpleData>
+		<SimpleData name="x">-71.31564</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.31564,44.28608</coordinates></Point>
+  </Placemark>
+  <Placemark id="10whites.5">
+	<name>Bigelow Lawn Hill</name>
+	<ExtendedData><SchemaData schemaUrl="#10whites">
+		<SimpleData name="Rank">5</SimpleData>
+		<SimpleData name="Elevation">5520</SimpleData>
+		<SimpleData name="y">44.257</SimpleData>
+		<SimpleData name="x">-71.30113</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.30113,44.257</coordinates></Point>
+  </Placemark>
+  <Placemark id="10whites.6">
+	<name>Monticello Lawn Peak</name>
+	<ExtendedData><SchemaData schemaUrl="#10whites">
+		<SimpleData name="Rank">6</SimpleData>
+		<SimpleData name="Elevation">5405</SimpleData>
+		<SimpleData name="y">44.30024</SimpleData>
+		<SimpleData name="x">-71.31413</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.31413,44.30024</coordinates></Point>
+  </Placemark>
+  <Placemark id="10whites.7">
+	<name>Mount Monroe</name>
+	<ExtendedData><SchemaData schemaUrl="#10whites">
+		<SimpleData name="Rank">7</SimpleData>
+		<SimpleData name="Elevation">5197</SimpleData>
+		<SimpleData name="y">44.25502</SimpleData>
+		<SimpleData name="x">-71.32135</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.32135,44.25502</coordinates></Point>
+  </Placemark>
+  <Placemark id="10whites.8">
+	<name>Mount Madison</name>
+	<ExtendedData><SchemaData schemaUrl="#10whites">
+		<SimpleData name="Rank">8</SimpleData>
+		<SimpleData name="Elevation">5353</SimpleData>
+		<SimpleData name="y">44.25502</SimpleData>
+		<SimpleData name="x">-71.32135</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.32135,44.25502</coordinates></Point>
+  </Placemark>
+  <Placemark id="10whites.9">
+	<name>Mount Lafayette</name>
+	<ExtendedData><SchemaData schemaUrl="#10whites">
+		<SimpleData name="Rank">9</SimpleData>
+		<SimpleData name="Elevation">5243</SimpleData>
+		<SimpleData name="y">44.16065</SimpleData>
+		<SimpleData name="x">-71.64439</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.64439,44.16065</coordinates></Point>
+  </Placemark>
+  <Placemark id="10whites.10">
+	<name>Mount Lincoln</name>
+	<ExtendedData><SchemaData schemaUrl="#10whites">
+		<SimpleData name="Rank">10</SimpleData>
+		<SimpleData name="Elevation">5080</SimpleData>
+		<SimpleData name="y">44.14884</SimpleData>
+		<SimpleData name="x">-71.64458</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.64458,44.14884</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

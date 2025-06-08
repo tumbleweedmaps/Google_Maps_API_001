@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="book1" id="book1">
+	<SimpleField name="id" type="string"></SimpleField>
+	<SimpleField name="street" type="string"></SimpleField>
+	<SimpleField name="x" type="float"></SimpleField>
+	<SimpleField name="y" type="float"></SimpleField>
+	<SimpleField name="field_6" type="string"></SimpleField>
+	<SimpleField name="field_7" type="string"></SimpleField>
+	<SimpleField name="field_8" type="string"></SimpleField>
+	<SimpleField name="field_9" type="string"></SimpleField>
+	<SimpleField name="field_10" type="string"></SimpleField>
+	<SimpleField name="field_11" type="string"></SimpleField>
+	<SimpleField name="field_12" type="string"></SimpleField>
+	<SimpleField name="field_13" type="string"></SimpleField>
+</Schema>
+<Folder><name>book1</name>
+  <Placemark id="book1.1">
+	<name>Greenwich</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts001</SimpleData>
+		<SimpleData name="street">20 Railroad Ave.</SimpleData>
+		<SimpleData name="x">-73.6281656</SimpleData>
+		<SimpleData name="y">41.0211182</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.6281656,41.0211182</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.2">
+	<name>Cos Cob</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts002</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.3">
+	<name>Riverside</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts003</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.4">
+	<name>Old Greenwich</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts004</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.5">
+	<name>Stamford</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts005</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.6">
+	<name>Glenbrook</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.7">
+	<name>Springdale</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts007</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.8">
+	<name>Talmadge Hill</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.9">
+	<name>New Canaan</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.10">
+	<name>Noroton Heights</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts010</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.11">
+	<name>Darien</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.12">
+	<name>Rowayton</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts012</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.13">
+	<name>South Norwalk</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts013</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.14">
+	<name>Merritt 7</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts014</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.15">
+	<name>Wilton</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts015</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.16">
+	<name>Cannondale</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts016</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.17">
+	<name>Branchville</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts017</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.18">
+	<name>Redding</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts018</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.19">
+	<name>Bethel</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts019</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.20">
+	<name>Danbury</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts020</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.21">
+	<name>East Norwalk</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts021</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.22">
+	<name>Westport</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts022</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.23">
+	<name>Greens Farms</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts023</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.24">
+	<name>Southport</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts024</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.25">
+	<name>Fairfield</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts025</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.26">
+	<name>Fairfield Metro</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts026</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.27">
+	<name>Bridgeport</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts027</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.28">
+	<name>Stratford</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts028</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.29">
+	<name>Derby/Shelton</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts029</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.30">
+	<name>Ansonia</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts030</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.31">
+	<name>Seymour</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts031</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.32">
+	<name>Beacon Falls</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts032</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.33">
+	<name>Naugatuck</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts033</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.34">
+	<name>Waterbury</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts034</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.35">
+	<name>Milford</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts035</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.36">
+	<name>West Haven</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts036</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.37">
+	<name>New Haven</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts037</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.38">
+	<name>State Street</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts038</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.39">
+	<name>Wallingford</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts039</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.40">
+	<name>Meriden</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts040</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.41">
+	<name>Berlin</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts041</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.42">
+	<name>Hartford</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts042</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.43">
+	<name>Windsor</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts043</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.44">
+	<name>Windsor Locks</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts044</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.45">
+	<name>Branford</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts045</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.46">
+	<name>Guilford</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts046</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.47">
+	<name>Madison</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts047</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.48">
+	<name>Clinton</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts048</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.49">
+	<name>Westbrook</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts049</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.50">
+	<name>Old Saybrook</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts050</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.51">
+	<name>New London</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts051</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="book1.52">
+	<name>Mystic</name>
+	<ExtendedData><SchemaData schemaUrl="#book1">
+		<SimpleData name="id">ts052</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

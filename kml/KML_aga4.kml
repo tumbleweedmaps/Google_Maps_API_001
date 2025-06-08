@@ -17,6 +17,9 @@
 	<SimpleField name="abs_alt_m" type="float"></SimpleField>
 	<SimpleField name="ct" type="int"></SimpleField>
 </Schema>
+<Style>
+
+</Style>
 <Folder><name>agamenticus4</name>
   <Placemark id="agamenticus4.1">
 	<ExtendedData><SchemaData schemaUrl="#agamenticus4">
