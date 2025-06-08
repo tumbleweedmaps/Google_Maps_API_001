@@ -64,10 +64,10 @@
         content: "<b>You're here!</b>",
       });
 
-      const kmlLayer = new google.maps.KmlLayer({
-        url: 'https://storage.googleapis.com/tumbleweed_kml/newIconsD.kml',
-        map: map,
-      });
+      // const kmlLayer = new google.maps.KmlLayer({
+      //   url: 'https://storage.googleapis.com/tumbleweed_kml/newIconsD.kml',
+      //   map: map,
+      // });
 
 
 
@@ -75,6 +75,7 @@
       enableClickToAddMarker(map);
       addKmlLayer(map, "https://tumbleweedmaps.github.io/Google_Maps_API_001/kml/KML_aga4.kml")
       addKmlLayer(map, "https://tumbleweedmaps.github.io/Google_Maps_API_001/kml/KML_ct_trains.kml")
+      addKmlLayer(map, "https://tumbleweedmaps.github.io/Google_Maps_API_001/peaks/peak_01_washington.kml")
       
     }
   </script>
