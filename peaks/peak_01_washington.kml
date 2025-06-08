@@ -1,44 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
-<Document id="root_doc">
-  <Schema name="10whites" id="10whites">
-    <SimpleField name="Rank" type="int"></SimpleField>
-    <SimpleField name="Elevation" type="int"></SimpleField>
-    <SimpleField name="y" type="float"></SimpleField>
-    <SimpleField name="x" type="float"></SimpleField>
-  </Schema>
-
-  <Style id="peak-icon">
-    <IconStyle>
-      <scale>1.2</scale>
-      <Icon>
-        <href>https://maps.google.com/mapfiles/kml/shapes/mountains.png</href>
-      </Icon>
-    </IconStyle>
-  </Style>
-
-  <Folder>
-    <name>10whites</name>
-
-    <Placemark id="10whites.1">
-      <name>Washington</name>
-      <styleUrl>#peak-icon</styleUrl>
-      <ExtendedData>
-        <SchemaData schemaUrl="#10whites">
-          <SimpleData name="Rank">1</SimpleData>
-          <SimpleData name="Elevation">6286</SimpleData>
-          <SimpleData name="y">44.27049</SimpleData>
-          <SimpleData name="x">-71.30327</SimpleData>
-        </SchemaData>
-      </ExtendedData>
-      <description><![CDATA[
-        <p><b>Elevation:</b> 6286 ft<br><b>Rank:</b> 1</p>
-      ]]></description>
-      <Point>
-        <coordinates>-71.30327,44.27049</coordinates>
-      </Point>
-    </Placemark>
-
-  </Folder>
-</Document>
+  <Placemark>
+    <name>Mount Washington</name>
+    <description><![CDATA[
+      <p><b>Elevation:</b> 6286 ft</p>
+    ]]></description>
+    <Point>
+      <coordinates>-71.30327,44.27049</coordinates>
+    </Point>
+  </Placemark>
 </kml>
