@@ -23,6 +23,8 @@
     <div id="map"></div>
   </div>
 
+<script src="/modules/clickToAddMarker.js"></script>
+
   <script>
     function initMap() {
       const noLabelsStyle = [
@@ -64,11 +66,16 @@
         url: 'https://storage.googleapis.com/tumbleweed_kml/newIconsD.kml',
         map: map,
       });
+
+    //   Add Function Calls
+      enableClickToAddMarker(map);
     }
   </script>
 
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5ul6nx5THZfVhGtlCwuRQJy80MLn1beo&callback=initMap">
   </script>
+
+  <script type="module" src="maps.js"></script>
 </body>
 </html>
