@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files (API keys, secrets)
+.env
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Build artifacts (if using a bundler)
+dist/
+build/
+
+# Optional: if using GitHub Pages or similar
+*.local

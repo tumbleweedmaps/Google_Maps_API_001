@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="peakIconStyle">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/mountains.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Mount Adams</name>
+      <styleUrl>#peakIconStyle</styleUrl>
+      <description>Name: Mount Adams
+Coordinates: 44.32056, -71.29156
+Elevation: 5797 ft
+Named for John Adams</description>
+      <Point>
+        <coordinates>-71.29156,44.32056,5797</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
